@@ -18,7 +18,7 @@ I've worked in the diving industry, but I'm pivoting into tech — specifically 
 
 I study **8+ hours a day** and follow a structured plan. Every day I:
 
-- Practice Python and SQL
+- Practice Python, SQL and Git
 - Tackle data engineering problems
 - Log progress in this repo
 
