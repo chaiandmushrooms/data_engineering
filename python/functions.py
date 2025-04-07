@@ -1,5 +1,9 @@
 import math
 
+def reverse_string(text):
+    width = len(text)
+    return "".join(text[i] for i in range (width - 1, -1, -1))
+
 def factorial(number):
     return math.prod(num for num in range (1, number + 1)) if number > 0 else 1
 

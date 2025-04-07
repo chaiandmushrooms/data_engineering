@@ -1,0 +1,23 @@
+day0
+
+SELECT
+selects columns from a database by their column names. using "*" selects all columns.  
+each selected column should be separated by "," - comma.
+
+FROM
+tells the interpreter which table to select the required columns from.
+
+WHERE
+can be used for conditions with or without operators.  
+eg: WHERE Pet = "Dog", (WHERE Productive_hours != 0), (WHERE Productive_hours >= 6) AND (WHERE Productive_hours <= 8)
+
+ORDER BY
+used to sort the rows by the values in a column. without any manipulation, it gives in ascending order.  
+DESC can be used to receive descending order.
+
+LIMIT ------> OFFSET
+LIMIT cuts down how many rows come back.
+OFFSET skips rows before LIMIT kicks in.
+
+DISTINCT
+returns only distinct rows by the values in a column

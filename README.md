@@ -39,5 +39,3 @@ I study **8+ hours a day** and follow a structured plan. Every day I:
 
    ```bash
    import functions
-
----
