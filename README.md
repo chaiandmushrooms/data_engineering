@@ -32,3 +32,12 @@ I study **8+ hours a day** and follow a structured plan. Every day I:
 - **Learning Platforms**: CS50, YouTube, Books, Open Source Projects
 
 ---
+
+### Version Hitory
+
+0.1 - As of April 7th all scripts will go into functions.py for better accessibility.
+
+   ```bash
+   import functions
+
+---
