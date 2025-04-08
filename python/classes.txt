@@ -1,0 +1,26 @@
+class
+a class defines a blueprint for creating objects (aka instances). class names should be written in CamelCase.
+class can also have methods associated with them. for instance dictionary has  
+                                                                    .get(key) - gets a particular value of a key, 
+                                                                    .items(), - gets all the key value pairs of a dictionary
+                                                                    .keys(), - gets all the keys in the dictionary
+                                                                    .values() - gets all the values associated with keys in the dict.
+
+class PhoneBook:
+    def __init__(self, name = "name", phonenumber = "18001800"):
+        self.name = name
+        self.phonenumber = phonenumber
+
+def main():
+    someones_book = PhoneBook("someone", "0123-456-789")
+    ajays_book = PhoneBook()
+
+in the above example, a class named PhoneBook is initiated. on line 15, when the code runs from left to right a new object
+named someones_book is initialized. someones_book.name is initialized to "someone" and someones_book.phonenumber is set to "18001800"
+since the values were passed in.
+on line 16, a new object is defined from PhoneBook class, ajays_book. since no values were passed in, the default arguments
+on line 10 come into play.
+
+technically, someones_book and ajays_book are both objects (instance) of class PhoneBook
+likewise - list, dict, str, int and float are all built-in classes, 
+and when we use them, we're creating objects(instances) of those classes.
