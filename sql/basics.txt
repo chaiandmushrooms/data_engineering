@@ -2,14 +2,14 @@ day0
 
 SELECT
 selects columns from a database by their column names. using "*" selects all columns.  
-each selected column should be separated by "," - comma.
+separate column names with commas
 
 FROM
 tells the interpreter which table to select the required columns from.
 
 WHERE
 can be used for conditions with or without operators.  
-eg: WHERE Pet = "Dog", (WHERE Productive_hours != 0), (WHERE Productive_hours >= 6) AND (WHERE Productive_hours <= 8)
+eg: WHERE Pet = "Dog", (WHERE Productive_hours != 0), (WHERE Productive_hours >= 6 AND Productive_hours <= 8)
 
 ORDER BY
 used to sort the rows by the values in a column. without any manipulation, it gives in ascending order.  
@@ -21,3 +21,23 @@ OFFSET skips rows before LIMIT kicks in.
 
 DISTINCT
 returns only distinct rows by the values in a column
+
+day 1
+JOIN
+joins two tables together, has to be used alongside another parameter - INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN
+INNER -----------> joins two tables based on matching values in a column
+LEFT / RIGHT ----> includes all rows from the left/right table, with NULLs where there’s no match from the other
+FULL ------------> joins two tables. both table have equal precedence, they get merged into one even if there's no match
+
+AGGREGATION ------> SUM, COUNT, MAX, MIN
+aggregation summarizes values from a column
+SUM ----------> provides the sum of all values in the column meeting the criteria
+COUNT --------> gives the number of rows that match the condition
+MAX, MIN -----> maximum/minimum value in a column across rows that meet the criteria
+
+GROUP BY
+GROUP BY is supposed to be used in tandem with AGGREGATORS to list out the criteria
+should be used after WHERE
+
+NULL
+default return value if a column is empty. can be checked with IS or IS NOT
