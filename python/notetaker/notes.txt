@@ -1,0 +1,2 @@
+hi, world!
+next we'll cover, fread \o/
