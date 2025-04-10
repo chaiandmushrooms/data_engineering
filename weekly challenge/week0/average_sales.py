@@ -17,8 +17,8 @@ with open("salesdata.csv", 'r') as sales_data:
     
     for line in lines:
         total_orders += 1
-        key = line[4] + " " + line[7]
-        if key in sales_dict:
+        key = line[4].lower() + " " + line[7]
+        if key not in sales_dict:
             total_customers += 1
         sales_dict[key] = sales_dict.get(key, 0) + 1
 
