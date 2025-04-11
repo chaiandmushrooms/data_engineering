@@ -1,8 +1,0 @@
-OrderID,Product,Price,Customer,City,PostalCode
-1001,Shirt,29.99,Alice,Bangalore,560001
-1002,Shoes,59.99,Bob,Chennai,600001
-1003,unknown,39.99,Charlie,Delhi,110001
-1004,Hat,unknown,Daisy,Kolkata,700001
-1005,Watch,79.99,unknown,Mumbai,400001
-1006,Shirt,29.99,Eve,Bangalore,500001
-1007,Shoes,59.99,Frank,Hyderabad,unknown

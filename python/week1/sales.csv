@@ -4,5 +4,5 @@ OrderID,Product,Price,Customer,City,PostalCode
 1003,,39.99,Charlie,Delhi,110001
 1004,Hat,,Daisy,Kolkata,700001
 1005,Watch,79.99,,Mumbai,400001
-1006,Shirt,29.99,Eve,Bangalore,500001
+1006,Shirt,29.99,Eve,,500001
 1007,Shoes,59.99,Frank,Hyderabad,

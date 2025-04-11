@@ -10,10 +10,10 @@ with open("sales.csv", 'r') as messyfile:
             cleandata.writeheader()
             placeholderdata.writeheader()
 
-            for messy in messydata:
-                if all(messy[field] != "" for field in fields):
-                    cleandata.writerow(messy)
+            for row in messydata:
+                if all(row[field] != "" for field in fields):
+                    cleandata.writerow(row)
                 for field in fields:
-                    if messy[field] == "":
-                        messy[field] = "unknown"
-                placeholderdata.writerow(messy)
+                    if row[field] == "":
+                        row[field] = "unknown"
+                placeholderdata.writerow(row)

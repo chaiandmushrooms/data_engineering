@@ -1,0 +1,11 @@
+OrderID,Product,Price,Customer,City,PostalCode
+1001,Laptop,1200,Alice,New York,10001
+1002,Tablet,600,Bob,Chicago,60601
+1003,Phone,800,Charlie,Los Angeles,90001
+
+1001,Laptop,1200,Alice,New York,10001
+1004,Monitor,300,Dave,Seattle,98101
+, , , , ,
+
+1002,Tablet,600,Bob,Chicago,60601
+1005,Keyboard,100,Eve,Houston,77001
