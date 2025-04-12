@@ -1,11 +1,11 @@
 import datetime
 import json
 import requests
-import secret
+import config
 import csv
 
 LOCATION = 'Bangalore'
-KEY = secret.WEATHER_API_KEY
+KEY = config.WEATHER_API_KEY
 API_CALL = 'https://api.waqi.info/feed/{}/?token={}'.format(LOCATION, KEY)
 
 data = requests.request("GET", API_CALL).json()
