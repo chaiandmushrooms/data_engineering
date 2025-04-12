@@ -81,3 +81,8 @@ lists the history of commands you've used recently
 
 whoami  
 prints the current username on the terminal
+
+man command
+pulls up manual of that particular command
+
+cut
