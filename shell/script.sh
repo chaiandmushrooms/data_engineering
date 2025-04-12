@@ -1,3 +1,3 @@
 #!/bin/sh
-
-sort -r x.txt > last_5_tail.txt
+mkdir csv_backup
+mv *.csv csv_backup
