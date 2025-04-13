@@ -1,0 +1,2 @@
+# This job cleans up all CSV files in a particular folder every 5 minutes and outputs the error messages into a file called log.txt
+*/5 * * * * rm -rf ~/Desktop/test/*.csv >> ~/Desktop/test/log.txt 2&1
