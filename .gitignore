@@ -2,5 +2,4 @@ data_engineering.code-workspace
 python/__pycache__/
 weekly\ challenge/week1/config.py
 /python/week1/day1/config.py
-/python/week1/day2/config.py
-/python/week1/day2/parsing_with_pandas.py
+/python/week1/day3/config.py
