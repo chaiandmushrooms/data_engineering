@@ -1,0 +1,1 @@
+Completed 96 Bytes/96 Bytes (70 Bytes/s) with 1 file(s) remainingupload: Desktop/data_engineering/python/week1/day3/aqi.csv to s3://ubuntuajay/aqi.csv

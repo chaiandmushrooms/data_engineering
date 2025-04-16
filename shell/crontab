@@ -1,5 +1,8 @@
 # This job cleans up all CSV files in a particular folder every 5 minutes and outputs the error messages into a file called log.txt
 */5 * * * * rm -rf ~/Desktop/test/*.csv >> ~/Desktop/test/log.txt 2>&1
 
-# This job records aiq data at 20 hours everyday and records the erros in a log
+# This job records aqi data at 20 hours everyday and records the erros in a log
 0 20 * * * python /home/mushroomsandchai/Desktop/data_engineering/python/week1/day3/simplestorageservice.py >> /home/mushroomsandchai/Desktop/data_engineering/python/week1/day3/log.txt 2>&1
+
+# This job uploads the recorded air quality index data to s3 bucket, aka my first pipeline
+1 20 * * * aws s3 cp /home/mushroomsandchai/Desktop/data_engineering/python/week1/day3/aqi.csv s3://ubuntuajay >> /home/mushroomsandchai/Desktop/data_engineering/python/week1/day3/aws_log.txt 2>&1
